@@ -14,7 +14,6 @@ const Home = () => {
 
 	  const[inputValue, setInputValue] = useState("");
 	
-	
 	  useEffect(() => {
 		localStorage.setItem("todos", JSON.stringify(todos));
 	  }, [todos]);
